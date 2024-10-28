@@ -7,10 +7,20 @@
 .container {
     width: 80%;
     margin: auto;
+    background: white;
 }
 
 header {
     background: #4c8dcd;
     color: white;
     text-align: center;
+}
+
+body {
+    background: yellow;
+}
+
+footer {
+    background: blue;
+    color: white;
 }
