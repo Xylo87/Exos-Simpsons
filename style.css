@@ -49,15 +49,15 @@ nav {
     align-items: center;
     background-color: #4c8dcd;
     color: white;
-    margin: 0 0.6em;
-    padding: 0.6em 1em;
+    margin: 0 0.6rem;
+    padding: 0.6rem 1rem;
     font-weight: 500;
     height: fit-content;
 }
 
 nav a {
     color: inherit;
-    line-height: 1.5em;
+    line-height: 1.5rem;
 }
 
 article {
@@ -74,17 +74,17 @@ article h1 {
 
 aside {
     width: 20%;
-    margin: 0 0.6em;
+    margin: 0 0.6rem;
     background-color: #4c8dcd;
     color: white;
-    padding: 0.6em;
+    padding: 0.6rem;
     font-weight: 700;
     height: fit-content;
     text-align: center;
 }
 
 aside figure {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
 }
 
 aside h3 {
