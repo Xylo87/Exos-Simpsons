@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding:0;
+    padding: 0;
 }
 
 body {
@@ -14,10 +14,13 @@ body {
     width: 75%;
     margin: auto;
     background: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
-    background: #4c8dcd;  
+    background: #4c8dcd;
 }
 
 header h2 {
@@ -106,5 +109,5 @@ footer {
     padding: 0.3em;
     font-weight: 900;
     font-size: large;
-    /* sticky footer ??? */
+    margin-top: auto;
 }
