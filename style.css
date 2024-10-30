@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    width: 85%;
+    width: 80%;
     margin: auto;
     background: white;
     display: flex;
@@ -23,7 +23,7 @@ header {
 }
 
 header h2 {
-    padding: 0.2em 0;
+    padding: 0.3em 0;
     font-size: xx-large;
     text-align: center;
     color: white;
@@ -54,14 +54,14 @@ nav {
 
 nav a {
     color: inherit;
-    margin: 0 0.6rem;
+    margin: 0 1.2rem;
     text-decoration: none;
 }
 
 article {
     width: 75%;
     text-align: center;
-    margin: 0 1.1rem;
+    margin: 0 1.2rem;
 }
 
 article p {
@@ -70,7 +70,7 @@ article p {
 }
 
 article img {
-    width: 32%;
+    width: 33%;
     border: 1px solid black;
 }
 
@@ -83,7 +83,7 @@ article h1 {
 
 aside {
     width: 25%;
-    margin: 4.5rem 0.6rem;
+    margin: 4.5rem 1rem;
     background-color: #4c8dcd;
     color: white;
     padding: 0.6rem;
