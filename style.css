@@ -13,9 +13,6 @@ body {
     width: 80%;
     margin: auto;
     background: white;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
 header {
@@ -61,17 +58,7 @@ nav a {
 article {
     width: 75%;
     text-align: center;
-    margin: 0 1.2rem;
-}
-
-article p {
-    text-align: justify;
-    margin-bottom: 0.75rem;
-}
-
-article img {
-    width: 33%;
-    border: 1px solid black;
+    margin: 0 0 1.2rem 1.2rem;
 }
 
 article h1 {
@@ -81,14 +68,29 @@ article h1 {
     text-align: justify;
 }
 
+article p {
+    text-align: justify;
+    margin-bottom: 0.75rem;
+}
+
+article img {
+    width: 32%;
+    border: 1px solid black;
+}
+
 aside {
     width: 25%;
-    margin: 4.5rem 1rem;
+    margin: 4.5rem 1.2rem;
     background-color: #4c8dcd;
     color: white;
     padding: 0.6rem;
     height: fit-content;
     text-align: center;
+}
+
+aside img {
+    width: 75%;
+    border: 2px solid;
 }
 
 aside figure {
@@ -100,11 +102,6 @@ aside h3 {
     font-size: x-large;
 }
 
-aside img {
-    width: 75%;
-    border: 2px solid;
-}
-
 figcaption {
     line-height: 1.2rem;
     margin-top: 0.5rem;
@@ -112,6 +109,7 @@ figcaption {
 
 .legend {
     font-style: italic;
+    font-size: medium;
 }
 
 aside p {
@@ -125,5 +123,30 @@ footer {
     padding: 0.3em;
     font-weight: 900;
     font-size: large;
-    margin-top: auto;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        display: block;
+    }
+    article {
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+    article h1 {
+        text-align: center;
+    }
+    aside {
+        width: 95%;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    nav {
+
+    }
 }
