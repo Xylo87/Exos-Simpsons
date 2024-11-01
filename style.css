@@ -41,6 +41,10 @@ main {
     display: flex;
 }
 
+label, #burger {
+    display: none;
+}
+
 nav {
     border-bottom: 1px dashed;
     background-color: #4c8dcd;
@@ -125,6 +129,10 @@ footer {
     font-size: large;
 }
 
+:any-link {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
     main {
         display: block;
@@ -134,9 +142,7 @@ footer {
         margin: 0;
         padding: 1rem;
     }
-    article h1 {
-        text-align: center;
-    }
+   
     aside {
         width: 95%;
         margin-top: auto;
@@ -146,7 +152,32 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
-    nav {
-
+    article h1 {
+        text-align: center;
     }
+
+    .burger_content {
+        display: none;
+    }
+
+    label {
+        display: inline-block;
+        font-size: 250%;
+        cursor: pointer;
+    }
+
+    #burger:checked + .burger_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .burger_content a {
+        margin: 7.5px;
+        width: fit-content;
+    }
+
+    /* nav a {
+        white-space: nowrap;
+    } */
 }
