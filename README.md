@@ -30,7 +30,8 @@ Cette fonctionnalité a été conçue en usant uniquement d'éléments HTML et C
 
 2. **CSS**
 
-```label, #burger {
+```
+label, #burger {
     display: none;
 }
 
